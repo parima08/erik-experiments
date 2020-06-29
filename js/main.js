@@ -55,12 +55,6 @@
   }
 
   function init() {
-    document.querySelector("button.info-close");
-    // .addEventListener("click", function () {
-    //   //var info = document.querySelector(".info-wrap");
-    //   //info.parentNode.removeChild(info);
-    // });
-
     // target elements with the "drag-element" class
     interact(".drag-element").draggable({
       // enable inertial throwing
