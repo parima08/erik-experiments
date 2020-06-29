@@ -849,8 +849,8 @@ button:focus {
 }
 
 .info {
-  width: 90%;
-  max-width: 500px;
+  width: 100%;
+  height: 100vh;
   background: #333;
   padding: 2.5em 2em;
   font-size: 15px;
@@ -895,9 +895,9 @@ button:focus {
 }
 
 @media screen and (max-width: 50em) {
-  body {
+  /* body {
     padding-top: 100px;
-  }
+  } */
   .customizer {
     top: 0;
     width: 100%;
